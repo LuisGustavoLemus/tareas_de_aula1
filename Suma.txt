@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a, b, c, d, x=0;
+    
+    cout<<"Suma:\nIntrodusca el 1° número: \n";
+    cin>>a;
+    
+    cout<<"Introdusca el 2° número: \n";
+    cin>>b;
+    
+    cout<<"Introdusca el 3° número: \n";
+    cin>>c;
+    
+    cout<<"Introdusca el 4° número: \n";
+    cin>>d;
+    
+    x=(a+b+c+d);
+    
+    cout<<x;
+
+    return 0;
+}

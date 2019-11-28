@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+int
+main ()
+{
+  int opcion = 0;
+  
+  cout << "Menú:\n1-Desayuno\n2-Almuerzo\n3-Cena\nIngrese el número: ";
+      cin >> opcion;
+      
+  switch (opcion){
+  
+    case 1:
+      cout << "Desayuno:\npupusas de queso, frijol y frijol con queso, desayunos típicos o americanos.";
+      break;
+    case 2:
+      cout << "Almuerzo:\nSopa de pata, gallina y de tortilla, plato de carne, pollo y tacos.";
+      break;
+    case 3:
+      cout << "Cena:\nTamales, empanadas, huevos con frijoles.";
+      break;
+    }
+
+
+
+return 0;
+}
